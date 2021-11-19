@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UPITNIK</title>
+    <link rel="icon" href="https://pngimg.com/uploads/question_mark/question_mark_PNG113.png">
+  </head>
+  <body style="background-color: black;">
+    <br /><br />
+    <h1 style="font-weight: 400;font-family: Georgia, 'Times New Roman', Times, serif; text-align: center; color: rgb(255, 218, 185);">UPITNIK ZA STUDENTE</h1>
+    <br /><br /><br />
+    <div style="margin-right: 3cm; margin-left: 3cm; background-color: rgba(255, 218, 185, 0.774);">
+    <div style="font-family: Georgia, 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif; margin-left: 5cm; margin-right: 5cm ;text-align: justify; font-size: large;">
+<br><br>
+<p style="color: black; font-size: larger;">
+      Dragi studenti, zanima nas vaše mišljenje. Popunjavanjem ovog upitnika
+      pomažete nam da stvorimo bolju sliku o aktuelnim stavovima među mladima u vezi sa
+      vakcinacijom i trenutnim stanjem sa Korona virusom. Molimo te da ostaviš svoju e-mail adresu. <br>
+      Polja označena zvezdicom su obavezna za popunjavanje.
+  </p>
+    </div>
+    
+    <br><br><br>
+
+<div style="font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 7cm; margin-right: 7cm; background-color: black;">
+    <br><br><br>
+    
+    <form style="margin-left: 5cm; margin-right: 5cm; font-size: large;">
+
+      <input type="text" size="20" placeholder="Ime" name="ime" id="ime" required style="width:8cm; padding: 0.2cm; border: 1.6px solid;"/><label style="color: red;">*</label>
+      <br /><br />
+      <input
+        type="text"
+        size="20"
+        placeholder="Prezime"
+        name="prezime"
+        required style="width:8cm; padding: 0.2cm; border: 1.6px solid;"
+      /><label style="color: red;">*</label>
+      <br><br>
+      <input type="email" id="email" name="email" placeholder="e-mail adresa" required style="width:8cm; padding: 0.2cm; border: 1.6px solid;"><label style="color: red;">*</label>
+      <br><br>
+      <br><br><br>
+      <label style="color: rgb(255, 218, 185);">Da li si vakcinisan/a?</label><br>
+        <input type="radio" id="vakcinisan" name="vakcinacija" value="vakcinisan">
+        <label for="vakcinisan" style="color: rgb(255, 218, 185);">DA</label>
+        <input type="radio" id="nevakcinisan" name="vakcinacija" value="nevakcinisan">
+        <label for="nevakcinisan" style="color: rgb(255, 218, 185);">NE</label>
+        <br><br>
+        <label style="color: rgb(255, 218, 185);">Ukoliko jesi, koju(e) vakcinu(e) si primio/la?</label>
+        <br>
+        <input type="checkbox" id="astrazeneka">
+        <label for="astrazeneka" style="color: rgb(255, 218, 185);">Astrazeneka</label>
+        <br>
+        <input type="checkbox" id="sinopharm">
+        <label for="sinopharm" style="color: rgb(255, 218, 185);">Sinopharm</label>
+        <br>
+        <input type="checkbox" id="pfizer">
+        <label for="pfizer" style="color: rgb(255, 218, 185);">Pfizer</label>
+        <br>
+        <input type="checkbox" id="sputnik">
+        <label for="sputnik" style="color: rgb(255, 218, 185);">Sputnik V</label>
+        <br>
+        <input type="checkbox" id="moderna">
+        <label for="moderna" style="color: rgb(255, 218, 185);">Moderna</label>
+        <br><br>
+        <label style="color: rgb(255, 218, 185);">Ukoliko nisi, da li planiraš?</label>
+        <br>
+        <input type="radio" id="planiram" name="planiranje" value="planiram">
+        <label for="planiram" style="color: rgb(255, 218, 185);">DA</label>
+        <input type="radio" id="neplaniram" name="planiranje" value="neplaniram">
+        <label for="neplaniram" style="color: rgb(255, 218, 185);">NE</label>
+        <br><br>
+        <label for="stav" style="color: rgb(255, 218, 185);">Kakav je tvoj stav u vezi sa vakcinacijom?</label><label style="color: red;">*</label><br>
+        <textarea name="stav" id="stav" cols="50" rows="7" required ></textarea>
+        <br><br>
+        <label style="color: rgb(255, 218, 185);">Da li si bio/la zaražen/a Korona virusom?</label>
+        <br>
+        <input type="radio" id="jesam" name="nisamjesam" value="jesam">
+        <label for="jesam" style="color: rgb(255, 218, 185);">DA</label>
+        <input type="radio" id="nisam" name="nisamjesam" value="nisam">
+        <label for="nisam" style="color: rgb(255, 218, 185);">NE</label>
+        <br><br>
+        <label style="color: rgb(255, 218, 185);">Ukoliko jesi, da li je to bio lakši ili teži oblik virusa?</label>
+        <br>
+        <input type="radio" id="laksi" name="laksitezi" value="laksi">
+        <label for="laksi" style="color: rgb(255, 218, 185);">Lakši oblik</label>
+        <input type="radio" id="tezi" name="laksitezi" value="tezi">
+        <label for="tezi" style="color: rgb(255, 218, 185);">Teži oblik</label>
+        <br><br>
+        <label style="color: rgb(255, 218, 185);">Da li si u svojoj okolini imao/la primere težeg oblika Korona virusa?</label>
+        <br>
+        <input type="radio" id="da" name="dane" value="da">
+        <label for="da" style="color: rgb(255, 218, 185);">DA</label>
+        <input type="radio" id="ne" name="dane" value="ne">
+        <label for="ne" style="color: rgb(255, 218, 185);">NE</label>
+        <br><br>
+        <label style="color: rgb(255, 218, 185);">Da li si u svojoj okolini imao/la primere težeg oblika Korona virusa kod mladih ljudi (do 30 godina)?</label>
+        <br>
+        <input type="radio" id="dajesam" name="danisam" value="dajesam">
+        <label for="dajesam" style="color: rgb(255, 218, 185);">DA</label>
+        <input type="radio" id="nenisam" name="danisam" value="nenisam">
+        <label for="nenisam" style="color: rgb(255, 218, 185);">NE</label>
+        <br><br>
+        <label style="color: rgb(255, 218, 185);">Da li su ti ljudi bili vakcinisani?</label>
+        <br>
+        <input type="radio" id="jesuvakcinisani" name="jesunisu" value="jesuvakcinisani">
+        <label for="jesuvakcinisani" style="color: rgb(255, 218, 185);">DA</label>
+        <input type="radio" id="nisuvakcinisani" name="jesunisu" value="nisuvakcinisani">
+        <label for="nisuvakcinisani" style="color: rgb(255, 218, 185);">NE</label>
+        <br><br>
+        <label style="color: rgb(255, 218, 185);">Da li misliš da je vakcinacija jedino rešenje u borbi protiv Korona virusa?</label>
+        <br>
+        <input type="radio" id="jestejedinoresenje" name="jestenijejedino" value="jestejedinoresenje">
+        <label for="jestejedinoresenje" style="color: rgb(255, 218, 185);">DA</label>
+        <input type="radio" id="nijejedinoresenje" name="jestenijejedino" value="nijejedinoresenje">
+        <label for="nijejedinoresenje" style="color: rgb(255, 218, 185);">NE</label>
+        <br><br>
+        <label style="color: rgb(255, 218, 185);">Da li misliš da je vakcinacija najbolje rešenje u borbi protiv Korona virusa?</label>
+        <br>
+        <input type="radio" id="jestenajboljeresenje" name="jestenijenajbolje" value="jestenajboljeresenje">
+        <label for="jestenajboljeresenje" style="color: rgb(255, 218, 185);">DA</label>
+        <input type="radio" id="nijenajboljeresenje" name="jestenijenajbolje" value="nijenajboljeresenje">
+        <label for="nijenajboljeresenje" style="color: rgb(255, 218, 185);">NE</label>
+        <br><br>
+        <label style="color: rgb(255, 218, 185);">Da li misliš da bi trebalo pooštriti mere u borbi protiv Korona virusa?</label>
+        <br>
+        <input type="radio" id="trebalobi" name="trebalonebi" value="trebalobi">
+        <label for="trebalobi" style="color: rgb(255, 218, 185);">DA</label>
+        <input type="radio" id="nebitrebalo" name="trebalonebi" value="nebitrebalo">
+        <label for="nebitrebalo" style="color: rgb(255, 218, 185);">NE</label>
+        <br><br>
+        <label for="stav" style="color: rgb(255, 218, 185);">Koje bi mere po tebi bile prikladne?</label><label style="color: red;">*</label><br>
+        <textarea name="mere" id="mere" cols="50" rows="7" required ></textarea><br><br>
+        <label style="color: rgb(255, 218, 185);">Da li si negde putovao/la van granica Srbije u prethodne 2 godine?</label>
+        <br>
+        <input type="radio" id="putovao" name="putovanja" value="putovao">
+        <label for="putovao" style="color: rgb(255, 218, 185);">DA</label>
+        <input type="radio" id="neputovao" name="putovanja" value="neputovao">
+        <label for="neputovao" style="color: rgb(255, 218, 185);">NE</label>
+        <br><br>
+        <label style="color: rgb(255, 218, 185);">Ukoliko nisi, da li je razlog bilo stanje zbog Korona virusa?</label>
+        <br>
+        <input type="radio" id="jestekorona" name="razlog" value="jestekorona">
+        <label for="jestekorona" style="color: rgb(255, 218, 185);">DA</label>
+        <input type="radio" id="nijekorona" name="razlog" value="nijekorona">
+        <label for="nijekorona" style="color: rgb(255, 218, 185);">NE</label>
+
+      <br><br><br><br><br>
+      <button type="submit" style="font-size: larger; background-color: rgb(255, 218, 185); font-family: Georgia, 'Times New Roman', Times, serif;">Završi upitnik</button> &nbsp; &nbsp; &nbsp; &nbsp;
+      <button type="reset" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: larger; background-color: rgb(255, 218, 185);">Obriši upitnik</button> <br><br><br>
+    </form>
+</div>
+<br><br><br><br>
+</div>
+  </body>
+</html>
